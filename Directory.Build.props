@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <SourceRoot>$(MSBuildThisFileDirectory)</SourceRoot>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!--#region App_g_Code for rg -->
+  <Target Name="rg_PreBuild" BeforeTargets="PreBuildEvent">
+    <ItemGroup>
+      <Compile Include="obj\rg\**" />
+    </ItemGroup>
+  </Target>
+  <!--#endregion App_g_Code for rg -->
+
+</Project>

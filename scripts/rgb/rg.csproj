@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>  
+  <ItemGroup>
+    <projectPath Include="../../csproj01/csproj01.csproj" />
+    <projectPath Include="../../lib01/lib01.csproj" />
+    <projectPath Include="../../lib02/lib02.csproj" />
+  </ItemGroup>
+</Project>
